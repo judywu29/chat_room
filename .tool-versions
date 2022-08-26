@@ -1,0 +1,4 @@
+# Refer [rebuilding servers](documentation/infrastructure/rebuilding_servers_with_cloud66.md) when making changes
+nodejs 14.17.3  # This should actually be 16.3.0 (with npm 7.15.1) to be in line with Cloud 66 however we can't get our ember app working on that version easily
+ruby 3.0.2 # c66 is using bundler 2.2.33 but we have locked to 2.2.22 as that is the version that comes with ruby 3.0.2
+redis 6.2.1
